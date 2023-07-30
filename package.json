@@ -1,0 +1,32 @@
+{
+  "name": "hw-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vetik007/nodejs-hw01.git"
+  },
+  "keywords": [],
+  "author": "Vitalii Luchkevich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vetik007/nodejs-hw01/issues"
+  },
+  "homepage": "https://github.com/Vetik007/nodejs-hw01#readme",
+
+  "dependencies": {
+    "commander": "^11.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nanoid": "^3.3.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
