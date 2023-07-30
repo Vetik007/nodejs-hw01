@@ -1,1 +1,9 @@
-node_modules
+#Junk
+.vscode/
+.idea/
+
+# dependencies
+
+/node_modules
+/.pnp
+.pnp.js
